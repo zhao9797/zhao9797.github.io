@@ -1,6 +1,6 @@
 <!-- start custom footer snippets -->
 
-<a href="/sitemap/">Sitemap</a>
+<div class="footer-slogan" id="randomSlogan"></div>
 
 <!-- Support for MatJax -->
 <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -16,4 +16,39 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
+<script>
+const slogans = [
+    "探索知识，连接思想",
+    "真理之路，始于好奇",
+    "思考不止，探索不息",
+    "知识的海洋，我们一同航行",
+    "每一次思考，都是进步的开始",
+    "记录思想的火花，汇聚智慧的光芒",
+    "专注学术，分享真知",
+    "在知识的世界里，永不停歇",
+    "思想因交流而璀璨",
+    "追求真理，永无止境"
+];
+
+function displayRandomSlogan() {
+    const randomIndex = Math.floor(Math.random() * slogans.length);
+    document.getElementById('randomSlogan').textContent = slogans[randomIndex];
+}
+
+window.addEventListener('load', displayRandomSlogan);
+</script>
+
+<style>
+
+.footer-slogan {
+    font-style: italic;
+    color: #666;
+    margin: 15px 0;
+    padding: 8px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+</style>
 <!-- end custom footer snippets -->

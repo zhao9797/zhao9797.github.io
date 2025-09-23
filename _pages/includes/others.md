@@ -10,6 +10,4 @@
 # 💻 Work Experience
 - *2022.06 - Now*, XiaoMi, Beijing.
 
-<div style="width: 400px; margin: 0 auto;">
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=500&t=n&d=3WnEtZxomvE-3XMA7bEQ8ZI8xkcQQvF0bGj1HflLAcc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-</div>
+
