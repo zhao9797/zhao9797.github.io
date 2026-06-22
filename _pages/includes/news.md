@@ -1,4 +1,6 @@
 # 🔥 News
+- *2026.06*: 📤 [HarnessX](https://arxiv.org/abs/2606.14249) has been posted on arXiv[cs.AI].
+- *2026.01*: 📤 [R³](https://arxiv.org/abs/2601.19620) has been posted on arXiv[cs.LG].
 - *2024.06*: 🎉 [SubLLM](https://arxiv.org/pdf/2406.06571?) has been accepted by ECAI2024.
 - *2023.06*: 📤 [UniMC](https://arxiv.org/pdf/2306.10543) has been posted on arXiv[cs.CL].
 - *2023.03*: Began participating in the MiLM model series, involving infrastructure construction, pre-training data processing, and foundation model training &amp; evaluation.
